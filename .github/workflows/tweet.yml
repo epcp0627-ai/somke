@@ -2,7 +2,7 @@ name: No Smoking Tweet Bot
 
 on:
   schedule:
-    - cron: "0 7 * * *"  # 매일 07:00 UTC = 한국시간 오후 4시
+    - cron: "0 2 * * *"  # 매일 07:00 UTC = 한국시간 오후 4시
   workflow_dispatch:      # 수동 실행도 가능
 
 jobs:
